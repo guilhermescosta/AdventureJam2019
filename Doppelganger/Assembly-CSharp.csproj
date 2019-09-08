@@ -57,6 +57,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CabinetScript.cs" />
     <Compile Include="Assets\Cutscene.cs" />
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\Invetory.cs" />
