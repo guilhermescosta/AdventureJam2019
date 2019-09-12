@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CabinetScript : MonoBehaviour
 {
     public bool hasCollided = false;
-    public GameObject MainText;
-    public GameObject cabinText;
+    public Text MainText;
+    public Text cabinText;
 
     
     // Start is called before the first frame update
@@ -27,8 +28,8 @@ public class CabinetScript : MonoBehaviour
     {
         hasCollided = true;
 
-        MainText = cabinText;
+        MainText.text = cabinText.text;
 
-        Debug.Log("Click!");
+        
     }
 }
