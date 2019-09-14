@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CabinetScript : MonoBehaviour
+public class ObjectCheck : MonoBehaviour
 {
     public bool hasCollided = false;
+    public string objectText;
     public Text MainText;
-    public Text cabinText;
+
 
     
     // Start is called before the first frame update
@@ -28,7 +29,7 @@ public class CabinetScript : MonoBehaviour
     {
         hasCollided = true;
 
-        MainText.text = cabinText.text;
+        MainText.text = objectText;
 
         
     }

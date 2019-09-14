@@ -281,7 +281,6 @@ GameObject:
   - component: {fileID: 450028361}
   - component: {fileID: 450028360}
   - component: {fileID: 450028359}
-  - component: {fileID: 450028363}
   m_Layer: 5
   m_Name: SouthBtn
   m_TagString: Untagged
@@ -417,22 +416,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 450028357}
   m_CullTransparentMesh: 1
---- !u!114 &450028363
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 450028357}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7f156d00b7cbd854d86adf589139889f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alreadyVisit: 0
-  BackText: {fileID: 1765575842}
-  GameText: {fileID: 1193490649}
-  SouthBtn: {fileID: 450028360}
 --- !u!1 &611674066
 GameObject:
   m_ObjectHideFlags: 0

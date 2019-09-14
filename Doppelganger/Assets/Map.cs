@@ -10,6 +10,13 @@ public class Map : MonoBehaviour
 
     public GameObject[] items;
 
+    public ChangeScene _change;
+
+    private void Awake()
+    {
+        _change = GameObject.FindGameObjectWithTag("box").GetComponent<ChangeScene>();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -33,7 +40,7 @@ public class Map : MonoBehaviour
                 DontDestroyOnLoad(item);
             }
         }
-
+        _change.lastScene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(_nextScene);
 
     }

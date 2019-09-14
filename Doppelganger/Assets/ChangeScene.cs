@@ -12,7 +12,22 @@ public class ChangeScene : MonoBehaviour
     public Text BackText;
     public Text GameText;
     public Button SouthBtn;
+    public Scene currentScene;
+    public Scene lastScene;
 
+    private void Awake()
+    {
+        GameText = GameObject.FindGameObjectWithTag("gametext").GetComponent<Text>();
+
+        currentScene = SceneManager.GetActiveScene();
+        
+    }
+
+
+
+
+
+    /*
     void OnEnable()
     {
 
@@ -24,5 +39,6 @@ public class ChangeScene : MonoBehaviour
         GameText.text = BackText.text;
         DontDestroyOnLoad(GameText.gameObject);
     }
+    */
 
 }
