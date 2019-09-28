@@ -17,7 +17,7 @@ public class TextEffect : MonoBehaviour
 
     private void Start()
     {
-    
+        StartCoroutine(ShowText());
     }
 
     private void Update()

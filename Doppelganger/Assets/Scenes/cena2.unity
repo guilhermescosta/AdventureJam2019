@@ -175,6 +175,7 @@ MonoBehaviour:
   _nextScene: 0
   _inventory: {fileID: 0}
   items: []
+  _change: {fileID: 0}
 --- !u!114 &22857336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -323,6 +324,7 @@ MonoBehaviour:
   _nextScene: 1
   _inventory: {fileID: 0}
   items: []
+  _change: {fileID: 0}
 --- !u!114 &450028360
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,7 +698,6 @@ GameObject:
   - component: {fileID: 1193490647}
   - component: {fileID: 1193490650}
   - component: {fileID: 1193490649}
-  - component: {fileID: 1193490648}
   m_Layer: 5
   m_Name: GameText
   m_TagString: gametext
@@ -724,22 +725,6 @@ RectTransform:
   m_AnchoredPosition: {x: -0.9, y: -0.4}
   m_SizeDelta: {x: 961.7, y: 229.2}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1193490648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193490646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e1ae1b67c4f6d244a3d89f174f67ac8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  delay: 0.1
-  fullText: Teste
-  currentText: 
-  endText: 0
 --- !u!114 &1193490649
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -923,6 +908,7 @@ MonoBehaviour:
   _nextScene: 3
   _inventory: {fileID: 0}
   items: []
+  _change: {fileID: 0}
 --- !u!114 &1269821302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1558,6 +1544,7 @@ MonoBehaviour:
   _nextScene: 4
   _inventory: {fileID: 0}
   items: []
+  _change: {fileID: 0}
 --- !u!114 &1931149925
 MonoBehaviour:
   m_ObjectHideFlags: 0
